@@ -1,19 +1,17 @@
-from fastapi import APIRouter, Depends
-from app.dependencies import get_db
-from sqlalchemy.orm import Session
+from fastapi import APIRouter
 from . import schemas
 from typing import List
 import logging
 import boto3
 import os
 
-router = APIRouter(prefix="/images", dependencies=[Depends(get_db)])
+router = APIRouter(prefix="/images")
 
 logger = logging.getLogger(__name__)
 
 
 @router.get("", response_model=List[schemas.Image])
-def images(db: Session = Depends(get_db), page: int = 0):
+def images(page: int = 0):
     page_size = 9
 
     # Retrieve data

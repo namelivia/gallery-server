@@ -1,10 +1,10 @@
 #!/bin/bash
-TESTING=True \
-TEST_DATABASE_URL=sqlite:///./test.db \
-USER_INFO_SERVICE_ENDPOINT=http://user-info-service:80 \
-AWS_REGION=aws_region \
-AWS_BUCKET=aws_bucket \
-AWS_ACCESS_KEY_ID=access-key-id \
-AWS_SECRET_ACCESS_KEY=access-secret-id \
-pipenv run pytest --cov-report=xml --cov=app && \
-pipenv run codecov --commit=$1 -t $2
+#TESTING=True \
+#TEST_DATABASE_URL=sqlite:///./test.db \
+#USER_INFO_SERVICE_ENDPOINT=http://user-info-service:80 \
+#AWS_REGION=aws_region \
+#AWS_BUCKET=aws_bucket \
+#AWS_ACCESS_KEY_ID=access-key-id \
+#AWS_SECRET_ACCESS_KEY=access-secret-id \
+#pipenv run pytest --cov-report=xml --cov=app && \
+#pipenv run codecov --commit=$1 -t $2

@@ -4,12 +4,13 @@ from app.images.api import router as images
 from app.users.api import router as users
 import logging
 import sys
+import os
 
 app = FastAPI()
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
-origins = ["http://localhost:8080", "http://gallery.namelivia.com"]
+origins = ["http://localhost:8080", os.getenv("DOMAIN_NAME")]
 
 app.add_middleware(
     CORSMiddleware,

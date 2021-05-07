@@ -51,7 +51,7 @@
                 "sha256:61fe8cbb2d4bf1c9a69a73b3f2c68464e0ab587c9367b35f0ef691f372d5ce67"
             ],
             "index": "pypi",
-            "version": "==1.17.67"
+            "version": "==1.17.68"
         },
         "botocore": {
             "hashes": [

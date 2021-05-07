@@ -18,11 +18,10 @@
     "default": {
         "alembic": {
             "hashes": [
-                "sha256:3ff4f90d23dd283d7822d78ffbc07cb256344ae1d60500b933378bc13407efcc",
-                "sha256:d7f6d4dc6abed18e1591932a85349a7d621298ef0daa40021609cdca54a6047c"
+                "sha256:fb9a39a7c68e55490be962fb5f70463d384d340e6563d6e3911447778e3b4576"
             ],
             "index": "pypi",
-            "version": "==1.6.0"
+            "version": "==1.6.2"
         },
         "appdirs": {
             "hashes": [
@@ -48,8 +47,8 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:56f1766f1271b6b4e979c7b56225377f8912050e5935adc5c1c9e3a0338b949e",
-                "sha256:c61c809d288e88b9a0d926f56f803d0128b498aa9b45a42a6e03cd9a83e5c124"
+                "sha256:1db618cfe0e9d8c6ff4fc31ef4f9620bd72f472da0f3095f0be9372d77b671e9",
+                "sha256:61fe8cbb2d4bf1c9a69a73b3f2c68464e0ab587c9367b35f0ef691f372d5ce67"
             ],
             "index": "pypi",
             "version": "==1.17.68"

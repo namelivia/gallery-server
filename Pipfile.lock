@@ -73,11 +73,11 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:2c56644dc1fdfc3f7cc5c690371d0770d8e6b9edb3f4e15f206e5bc27422dcd6",
-                "sha256:f7a44fab1a3739ca54e7f72e8625b71574f8218f05349e59d3b871c887444edd"
+                "sha256:2f57f7ceed1598d96cc497aeb45317db5d3b21a5aafea4732d0e561d0fc2a8fa",
+                "sha256:bdf08a4f7f01ead00d386848f089c08270499711447569c18d0db60023619c06"
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
-            "version": "==1.20.101"
+            "version": "==1.20.102"
         },
         "certifi": {
             "hashes": [
@@ -652,11 +652,11 @@
         },
         "sqlalchemy-utils": {
             "hashes": [
-                "sha256:716d9d9592258db9651a511d03e6b2553242c2a440855ee3f7d5812bbb55d9eb",
-                "sha256:afd204ed051f53302cd8789cc29c9b15bf458f8baef14a9052bf2823f855d2cb"
+                "sha256:a6aaee154f798be4e479af0ceffaa5034d35fcf6f40707c0947d21bde64e05e5",
+                "sha256:b1bf67d904fed16b16ef1dc07f03e5e93a6b23899f920f6b41c09be45fbb85f2"
             ],
             "index": "pypi",
-            "version": "==0.37.7"
+            "version": "==0.37.8"
         },
         "starlette": {
             "hashes": [

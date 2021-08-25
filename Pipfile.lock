@@ -65,11 +65,11 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:7209b79833bdf13753aa24f76bf533890ffed2cc4fe1fe08619d223c209bbd11",
-                "sha256:f46c93d09acd4d4bfc6b9522ed852fecbdc508e0365f29ddfb3c146aae784b4e"
+                "sha256:dc5c6266cf0400314669fd23d1590c6895cd87c2d1d4254a4a31dc2f249e55c1",
+                "sha256:fcae01a690561755e7b87946a4685d29f3eb82a9671826fd210dd237c981c6dc"
             ],
             "index": "pypi",
-            "version": "==1.18.27"
+            "version": "==1.18.28"
         },
         "botocore": {
             "hashes": [
@@ -196,7 +196,7 @@
                 "sha256:177f9dd59861d871e27a484c3332f35a6e3f5d14626f2bf91be37891f18927f3",
                 "sha256:2ae695f7eb96c62529f03a038461afe3c692db3465e215355e1bb4b0ab408712"
             ],
-            "markers": "python_version >= '3.5'",
+            "markers": "python_full_version >= '3.5.0'",
             "version": "==1.1.0"
         },
         "greenlet": {
@@ -514,7 +514,7 @@
                 "sha256:10f1886e70da7b76ca1b4cf9bbd60f708ef037892496d5cb7c77ab2982412b2d",
                 "sha256:e96a96967098a5221a78bf94d72930cd1cfaf0ab88dae2ea6bfc2b8b8ccb1930"
             ],
-            "markers": "python_version >= '3.5'",
+            "markers": "python_full_version >= '3.5.0'",
             "version": "==3.0.0b3"
         },
         "pytest": {
@@ -643,7 +643,7 @@
                 "sha256:471b71698eac1c2112a40ce2752bb2f4a4814c22a54a3eed3676bc0f5ca9f663",
                 "sha256:c4666eecec1d3f50960c6bdf61ab7bc350648da6c126e3cf6898d8cd4ddcd3de"
             ],
-            "markers": "python_version >= '3.5'",
+            "markers": "python_full_version >= '3.5.0'",
             "version": "==1.2.0"
         },
         "sqlalchemy": {
@@ -1010,7 +1010,7 @@
                 "sha256:10f1886e70da7b76ca1b4cf9bbd60f708ef037892496d5cb7c77ab2982412b2d",
                 "sha256:e96a96967098a5221a78bf94d72930cd1cfaf0ab88dae2ea6bfc2b8b8ccb1930"
             ],
-            "markers": "python_version >= '3.5'",
+            "markers": "python_full_version >= '3.5.0'",
             "version": "==3.0.0b3"
         },
         "pytest": {

@@ -1052,10 +1052,10 @@
         },
         "pudb": {
             "hashes": [
-                "sha256:878b19931706b33a20478b0aa2c8cfe40fa173f111d8f19617800fe5febe265c"
+                "sha256:82a524ab4b89d2c701b089071ccc6afa9c8a838504e3d68eb33faa8a8abbe4cb"
             ],
             "index": "pypi",
-            "version": "==2021.2"
+            "version": "==2021.2.2"
         },
         "py": {
             "hashes": [

@@ -10,7 +10,7 @@ app = FastAPI()
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
-origins = ["http://localhost:8080", os.getenv("DOMAIN_NAME")]
+origins = ["http://localhost:3000", os.getenv("DOMAIN_NAME")]
 
 app.add_middleware(
     CORSMiddleware,

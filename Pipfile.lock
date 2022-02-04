@@ -758,11 +758,11 @@
         },
         "uvicorn": {
             "hashes": [
-                "sha256:8b16d9ecb76500f7804184f182835fe8a2b54716d3b0b6bb2da0b2b192f62c73",
-                "sha256:dffbacb8cc25d924d68d231d2c478c4fe6727c36537d8de21e5de591b37afc41"
+                "sha256:3ab1bf48aa512692db93a91c514576a0739a9d3522827e1656a172ee87118fa5",
+                "sha256:3cebddac78c7dd6bfce2f8f838c2c9b0cfcf3dddf417315ba62378ebe7e8fae2"
             ],
             "index": "pypi",
-            "version": "==0.17.1"
+            "version": "==0.17.3"
         },
         "uvloop": {
             "hashes": [

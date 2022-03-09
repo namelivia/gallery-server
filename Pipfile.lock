@@ -79,19 +79,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:20d29e7b845eed3a39b43633443859bfa719ddbe3c8702ddfd999bc737fba9db",
-                "sha256:d674fcd10c9603984599157941db66aa212d217dd073581c0ba2eab5e5da84fa"
+                "sha256:30394729b38d5ce2f845440428a55161c6d45478044e553a12ca1acf56d7278a",
+                "sha256:895489900eb882777124c3b64a13df49785cf77f7bd1504e783464fb3b4c8163"
             ],
             "index": "pypi",
-            "version": "==1.21.14"
+            "version": "==1.21.15"
         },
         "botocore": {
             "hashes": [
-                "sha256:2c40f4fc3925b9057869beda1413a7b77edb7a28eb05c6265eaf6ca1ca7d3b63",
-                "sha256:9fe55f6eab0977b00afd90e770ef2c8b989fa7b18e5c14b22ba62216ec3b564a"
+                "sha256:405082f92a9e524e1aee96cbc90134668026d7da3c12f86990c91a12620ca28b",
+                "sha256:fa4816e94e72111a9341204061e760bcbde74ca5d900d3f2206c2c2e8e4b56e4"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.24.14"
+            "version": "==1.24.15"
         },
         "certifi": {
             "hashes": [
@@ -160,7 +160,7 @@
                 "sha256:2857e29ff0d34db842cd7ca3230549d1a697f96ee6d3fb071cfa6c7393832597",
                 "sha256:6881edbebdb17b39b4eaaa821b438bf6eddffb4468cf344f09f89def34a8b1df"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==2.0.12"
         },
         "click": {
@@ -564,7 +564,7 @@
         "pyjwt": {
             "editable": true,
             "git": "https://github.com/jpadilla/pyjwt.git",
-            "ref": "827d4425dbd2e6f9b521e514ced889cfb3aada21"
+            "ref": "6a624f42112661d1e4ea43ce7a78a9d6c693644b"
         },
         "pyparsing": {
             "hashes": [
@@ -652,7 +652,7 @@
                 "sha256:471b71698eac1c2112a40ce2752bb2f4a4814c22a54a3eed3676bc0f5ca9f663",
                 "sha256:c4666eecec1d3f50960c6bdf61ab7bc350648da6c126e3cf6898d8cd4ddcd3de"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==1.2.0"
         },
         "sqlalchemy": {
@@ -833,7 +833,7 @@
                 "sha256:2857e29ff0d34db842cd7ca3230549d1a697f96ee6d3fb071cfa6c7393832597",
                 "sha256:6881edbebdb17b39b4eaaa821b438bf6eddffb4468cf344f09f89def34a8b1df"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==2.0.12"
         },
         "click": {
@@ -854,6 +854,9 @@
             "version": "==2.1.12"
         },
         "coverage": {
+            "extras": [
+                "toml"
+            ],
             "hashes": [
                 "sha256:03e2a7826086b91ef345ff18742ee9fc47a6839ccd517061ef8fa1976e652ce9",
                 "sha256:07e6db90cd9686c767dcc593dff16c8c09f9814f5e9c51034066cad3373b914d",

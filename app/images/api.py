@@ -47,10 +47,14 @@ def images(page: int = 0):
             pass
 
         # Retrieve labels from dynamodb
-        labels_query = table.query(
-            KeyConditionExpression=Key("image_key").eq(item["Key"])
-        )
-        labels = [label["name"] for label in labels_query]
+        try:
+            labels_query = table.query(
+                KeyConditionExpression=Key("image_key").eq(item["Key"])
+            )
+            labels = [label["image_label"] for label in labels_query["Items"]]
+        except Exception as e:
+            logger.error(f"Error retrieving labels from dynamodb: {e}")
+            labels = []
         image = schemas.Image(url=signed_url, labels=labels, date=item["LastModified"])
         result.append(image)
 

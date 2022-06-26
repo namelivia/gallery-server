@@ -3,6 +3,7 @@ from . import schemas
 from typing import List
 import logging
 import boto3
+from boto3.dynamodb.conditions import Key
 import os
 
 router = APIRouter(prefix="/images")
@@ -16,6 +17,8 @@ def images(page: int = 0):
 
     # Retrieve data
     client = boto3.client("s3", os.getenv("AWS_REGION"))
+    dynamodb = boto3.resource("dynamodb", os.getenv("AWS_REGION"))
+    table = dynamodb.Table(os.getenv("DYNAMO_TABLE"))
     paginator = client.get_paginator("list_objects_v2")
     page_iterator = paginator.paginate(Bucket=os.getenv("AWS_BUCKET"))
 
@@ -42,6 +45,15 @@ def images(page: int = 0):
             )
         except Exception:
             pass
-        image = schemas.Image(url=signed_url, date=item["LastModified"])
+
+        # Retrieve labels from dynamodb
+        labels_query = table.query(
+            KeyConditionExpression=Key("image_key").eq(item["Key"])
+        )
+        labels = [label["name"] for label in labels_query]
+        image = schemas.Image(url=signed_url, labels=labels, date=item["LastModified"])
         result.append(image)
+
+    # Finally retrieve labels for the image
+
     return result

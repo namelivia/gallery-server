@@ -24,6 +24,7 @@ services:
       USER_INFO_SERVICE_ENDPOINT: "http://user-info-service:80"
       AWS_REGION: "eu-west1"
       AWS_BUCKET: "my-bucket"
+      DYNAMO_TABLE: "my-dynamo-table"
       AWS_ACCESS_KEY_ID: "access-key-id"
       AWS_SECRET_ACCESS_KEY: "access-secret-id"
     command: [

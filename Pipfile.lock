@@ -73,11 +73,11 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:619022059e255731f33cd9fe083b8fd62406efcbc07dc15660037bcaa1ba1255",
-                "sha256:9f156f4da4b0a15924196e1a8e3439d1b99cd4a463588e4bb103d1cfaf5618fa"
+                "sha256:536d9e7a074f4f16cc87b426f91b3079edd5c6927541a04f7e3fa28c53293532",
+                "sha256:d9fd57d6e98fd919cdbd613428f685e05b48c71477fda1aa7fbf51867262c7d1"
             ],
             "index": "pypi",
-            "version": "==1.26.94"
+            "version": "==1.26.99"
         },
         "botocore": {
             "hashes": [
@@ -460,7 +460,7 @@
                 "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4",
                 "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==3.4"
         },
         "importlib-metadata": {
@@ -572,7 +572,7 @@
                 "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d",
                 "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==1.0.0"
         },
         "packaging": {
@@ -1150,7 +1150,7 @@
                 "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4",
                 "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==3.4"
         },
         "iniconfig": {
@@ -1182,7 +1182,7 @@
                 "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d",
                 "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==1.0.0"
         },
         "nodeenv": {

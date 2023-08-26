@@ -62,19 +62,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:2b509a959966a572f15db5768a18066ce1f53022ac53fca9421c620219fa3998",
-                "sha256:e095ede98d3680e65966ab71f273b7d86938f5d853773ef96f4cb646277c2a4b"
+                "sha256:580b584e36967155abed7cc9b088b3bd784e8242ae4d8841f58cb50ab05520dc",
+                "sha256:d77415f22bbc14f3d72eaed2fc9f96d161f3ba7686922ad26d6bbc9d4985f3df"
             ],
             "index": "pypi",
-            "version": "==1.28.30"
+            "version": "==1.28.35"
         },
         "botocore": {
             "hashes": [
-                "sha256:269f20dcadd8dfd0c26d0e6fbceb84814ff6638ff3aafcc5324b9fb9949a7051",
-                "sha256:3cf6a9d7621b897c9ff23cd02113826141b3dd3d7e90273b661efc4dc05f84e2"
+                "sha256:7e4534325262f43293a9cc9937cb3f1711365244ffde8b925a6ee862bcf30a83",
+                "sha256:943e1465aad66db4933b06809134bd08c5b05e8eb18c19742ffec82f54769457"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.31.30"
+            "version": "==1.31.35"
         },
         "certifi": {
             "hashes": [
@@ -446,7 +446,7 @@
                 "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4",
                 "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==3.4"
         },
         "importlib-metadata": {
@@ -558,7 +558,7 @@
                 "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d",
                 "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==1.0.0"
         },
         "packaging": {
@@ -663,7 +663,7 @@
         "pyjwt": {
             "editable": true,
             "git": "https://github.com/jpadilla/pyjwt.git",
-            "ref": "fbd40eb0603c64434293836c3a55852610116217"
+            "ref": "95638cf04f83b3e2c289b28810501e53195ff938"
         },
         "pytest": {
             "hashes": [
@@ -1011,7 +1011,7 @@
         },
         "coverage": {
             "extras": [
-                "toml"
+
             ],
             "hashes": [
                 "sha256:07ea61bcb179f8f05ffd804d2732b09d23a1238642bf7e51dad62082b5019b34",
@@ -1095,18 +1095,18 @@
         },
         "identify": {
             "hashes": [
-                "sha256:7243800bce2f58404ed41b7c002e53d4d22bcf3ae1b7900c2d7aefd95394bf7f",
-                "sha256:c22a8ead0d4ca11f1edd6c9418c3220669b3b7533ada0a0ffa6cc0ef85cf9b54"
+                "sha256:287b75b04a0e22d727bc9a41f0d4f3c1bcada97490fa6eabb5b28f0e9097e733",
+                "sha256:fdb527b2dfe24602809b2201e033c2a113d7bdf716db3ca8e3243f735dcecaba"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==2.5.26"
+            "version": "==2.5.27"
         },
         "idna": {
             "hashes": [
                 "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4",
                 "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==3.4"
         },
         "iniconfig": {
@@ -1138,7 +1138,7 @@
                 "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d",
                 "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782"
             ],
-            "markers": "python_full_version >= '3.5.0'",
+            "markers": "python_version >= '3.5'",
             "version": "==1.0.0"
         },
         "nodeenv": {
